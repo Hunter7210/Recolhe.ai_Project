@@ -9,9 +9,9 @@ class ChatController {
   final List<Map<String, String>> messages = [];
   bool isLoading = false;
 
-  final String apiKey =
-      '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';
-  final String apiUrl = 'https://api.groq.com/openai/v1/chat/completions';
+  // final String apiKey =
+  //     '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';
+  // final String apiUrl = 'https://api.groq.com/openai/v1/chat/completions';
 
   ChatController() {
     _loadMessages(); // Carregar mensagens ao inicializar
